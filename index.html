@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/pokebolaicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokédex</title>
+    
+</head>
+<body>
+    <div class="navbar">
+
+        <!-- Imagem no início da navbar -->
+        <img src="./NavbarImg/LogoInicio.png" alt="Logo Início" class="logo-left">
+
+        <!-- Imagem da Logo -->
+        <img id="LogoPokedex" src="./NavbarImg/PokemonMeioLogo.png" alt="LogoPokemon">
+
+        <!-- Imagem no final da navbar -->
+        <img src="./NavbarImg/LogoFinal.png" alt="Logo Final" class="logo-right">
+    </div>
+    
+    <div class="search-container">
+        <input type="text" class="search-box" id="search-input" placeholder="Escolha seu Pokémon...">
+        <button class="search-button" onclick="search()">Pesquisar</button>
+    </div>
+
+    <div class="card-container">
+        <div class="CardPikachu">
+            <img src="./img/pikachu.png" alt="pikachu">
+            <div class="InfoPikachu">
+                <h3>Pikachu</h3>
+            </div>
+        </div>
+        <div class="CardCaterpie">
+            <img src="./img/caterpie.png" alt="caterpie">
+            <div class="InfoCaterpie">
+                <h3>Caterpie</h3>
+            </div>
+        </div>
+        <div class="CarCharmeleon">
+            <img src="./img/charmeleon.png" alt="charmeleon">
+            <div class="InfoCharmeleon">
+                <h3>Charmeleon</h3>
+            </div>
+        </div>
+        <div class="CardVenusaur"></div>
+        <div class="CardBulbasaur"></div>
+        <div class="CardArbok"></div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>

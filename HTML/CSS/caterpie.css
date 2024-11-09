@@ -1,0 +1,28 @@
+body{
+    background-color: #f8f7f7;
+}
+h1{
+    color: #68eb40;
+}
+img{
+    margin-right: 550px;
+}
+h2{
+margin-top: -350px;
+margin-left: 200px;
+color: rgb(23, 23, 24);
+
+}
+
+.EstatisticasCaterpie{
+    width: 1000px;
+    height: 1000px;
+    background-color: #b4afaf; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    border: 2px solid #000000; 
+    border-radius: 23px;
+
+}

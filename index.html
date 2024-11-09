@@ -9,6 +9,9 @@
     
 </head>
 <body>
+   
+    <!-----------------------------------Navbar------------------------------------>
+
     <div class="navbar">
 
         <!-- Imagem no início da navbar -->
@@ -19,30 +22,50 @@
 
         <!-- Imagem no final da navbar -->
         <img src="./NavbarImg/LogoFinal.png" alt="Logo Final" class="logo-right">
+
     </div>
     
+    <!-----------------------------------Search Input------------------------------------>
+
     <div class="search-container">
         <input type="text" class="search-box" id="search-input" placeholder="Escolha seu Pokémon...">
-        <button class="search-button" onclick="search()">Buscar</button>
+        <ul id="myDropdown" class="dropdown-content"></ul> 
     </div>
 
+    <!-----------------------------------Cards Pokémons------------------------------------>
+
     <div class="card-container">
-        <div class="CardPikachu">
+
+        <div class="card" id="CardPikachu">
+           
             <img src="./img/pikachu.png" alt="pikachu">
-            <div class="InfoPikachu">
+        
+            <div class="InfoPikachu" id="InfoPikachu">
                 <h3>Pikachu</h3>
+                    <div class="EletricPikachu">
+                        <h3>Eletrical ⚡</h3>
+                        <div class="ExternoPikachu"><a href="./HTML/pikachu.html" target="_blank" rel="external">Estátisticas completas!</a></div>
+                    </div>
             </div>
         </div>
-        <div class="CardCaterpie">
+        <div class="card" id="CardCaterpie">
             <img src="./img/caterpie.png" alt="caterpie">
-            <div class="InfoCaterpie">
+            <div class="InfoCaterpie" id="InfoCaterpie">
                 <h3>Caterpie</h3>
+                <div class="BugCaterpie">
+                    <h3>Bug 🐛</h3>
+                    <div class="ExternoCaterpie"><a href="./HTML/caterpie.html" target="_blank" rel="external">Estátisticas completas!</a></div>
+                </div>
             </div>
         </div>
-        <div class="CarCharmeleon">
+        <div class="card" id="CarCharmeleon">
             <img src="./img/charmeleon.png" alt="charmeleon">
-            <div class="InfoCharmeleon">
+            <div class="InfoCharmeleon" id="InfoCharmeleon">
                 <h3>Charmeleon</h3>
+                <div class="FogoCharmaleon">
+                    <h3>Fogo 🔥</h3>
+                    <div class="ExternoCharmaleon"><a href="./HTML/charmaleon.html" target="_blank" rel="external">Estátisticas completas!</a></div>
+                </div>
             </div>
         </div>
         <div class="CardVenusaur"></div>
